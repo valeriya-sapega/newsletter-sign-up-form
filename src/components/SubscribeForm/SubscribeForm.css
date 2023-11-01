@@ -1,0 +1,46 @@
+.subscribeForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: var(--darkNavy, #242742);
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.err--label {
+    color: var(--Vermellion);
+}
+
+input {
+    padding: 16px 24px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+    color: var(--darkNavy);
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: var(--darkNavy);
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+input:focus {
+    border-color: var(--darkNavy);
+    outline: none;
+}
+
+input.error {
+    border-radius: 8px;
+border: 1px solid var(--Vermellion, #FF6155);
+background: rgba(255, 97, 85, 0.15);
+}
+
+

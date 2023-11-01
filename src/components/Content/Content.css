@@ -1,0 +1,33 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding-inline-start: 0;
+    list-style-position: inside;
+   
+}
+
+li::before {
+    content: url('/src/assets/images/icon-list.svg');
+    font-size: 1rem;
+    vertical-align: middle;
+    
+      margin-right: 16px;
+  
+   
+}
+
+li {
+    line-height: 150%;
+    
+}
+
+
+.card--text {
+    margin-bottom: 40px;
+}
+
+.card--text p{
+    margin: 24px 0;
+}
