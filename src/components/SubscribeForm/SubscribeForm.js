@@ -1,6 +1,7 @@
 import React from "react";
 import "./SubscribeForm.css";
 
+// delete success
 const SubscribeForm = ({
   handleSubsribe,
   handleEmailChange,
